@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+body {
+  background-color: #f5f5f5; /* Color de fondo claro para contrastar con el header oscuro */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #1b1924;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 5%;
+  height: 5%;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.header h1 {
+  font-family: 'Roboto Slab', serif; /* Aplica la fuente importada desde Google Fonts */
+  color: #f46b1d;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 150px auto 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white; /* Fondo blanco para el contenedor de login */
+}
+
+.login-container h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-top: 1em;
+  font-family: sans-serif;
+}
+
+.login-container input {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 10px; /* Hace los campos de texto más redondeados */
+  border: 1px solid #ccc; /* Añade un borde a los campos de texto */
+}
+
+.login-container button {
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px; /* Hace el botón más redondeado */
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Aprueba de facebook */
+
